@@ -7,6 +7,13 @@ class CategoriesController < ApplicationController
     @categories = Category.all.includes(:products)
   end
 
+  # GET /messed
+  # GET /messed.json
+  def messed
+    @categories = Category.all
+    render :index
+  end
+
   # GET /categories/1
   # GET /categories/1.json
   def show
