@@ -34,7 +34,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
   gem 'byebug', '4.0.5'
-  gem 'web-console', '2.1.2'
+  gem 'web-console', '2.1.3'
   gem 'spring', '1.3.6'
   gem 'guard', '2.12.5'
   gem 'bullet', '4.14.7'
